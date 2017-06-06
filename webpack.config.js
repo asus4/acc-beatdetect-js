@@ -3,7 +3,7 @@
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: __dirname + '/public',
+    path: __dirname + '/docs',
     filename: 'bundle.js'
   },
   module: {
@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: 'public',
+    contentBase: 'docs',
     host: '0.0.0.0',
     hot: true,
     disableHostCheck: true,

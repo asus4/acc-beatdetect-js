@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.28.4",
+    "gl-matrix": "^2.3.2",
+    "pug": "^2.0.0-rc.1",
+    "pug-loader": "^2.3.0",
+    "stats.js": "^0.17.0",
+    "style-loader": "^0.18.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --devtool inline-source-map --progress --colors",
+    "release": "webpack -p --progress --colors"
+  }
+}
